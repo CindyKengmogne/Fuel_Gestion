@@ -1,0 +1,19 @@
+using da3_intra_sommatif.Business;
+using da3_intra_sommatif.Presentation;
+
+namespace da3_intra_sommatif
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+           (new App()).Start();
+        }
+    }
+}
